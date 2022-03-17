@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_links_footer_sections",
+  "info": {
+    "name": "footerSection",
+    "displayName": "Footer Section",
+    "icon": "chevron-circle-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "titlelink": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.link"
+    }
+  }
+}

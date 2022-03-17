@@ -1,0 +1,18 @@
+{
+    "collectionName": "components_links_social_section",
+    "info": {
+      "name": "socialSection",
+      "displayName": "Social Section",
+      "icon": "chevron-circle-down",
+      "description": ""
+    },
+    "options": {},
+    "attributes": {
+      "links": {
+        "type": "component",
+        "repeatable": true,
+        "component": "links.social-icons"
+      }
+    }
+  }
+  

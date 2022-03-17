@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_links_social_icon",
+  "info": {
+    "name": "socialIcon",
+    "displayName": "Social Icon",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    }
+  }
+}
