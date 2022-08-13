@@ -2049,7 +2049,7 @@
     statuses "2.0.1"
     uuid "^3.3.2"
 
-"@strapi/utils@4.1.5", "@strapi/utils@^4.1.5":
+"@strapi/utils@4.1.5":
   version "4.1.5"
   resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.1.5.tgz#3e80f59476cab470ba0fdb42a075b5ae47e998f2"
   integrity sha512-Oz7ur7TsoqA4IOPdk6H3YwsVZ+FOi9wp+iRReKao8yfo4YKJjSYlHQlNXUaAqOOlFnT0ol7G3KF+uF8jLcfxDA==
@@ -2057,6 +2057,17 @@
     "@sindresorhus/slugify" "1.1.0"
     date-fns "2.24.0"
     http-errors "1.8.0"
+    lodash "4.17.21"
+    yup "0.32.9"
+
+"@strapi/utils@^4.3.2":
+  version "4.3.4"
+  resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.3.4.tgz#8cd150c4ad356a2ea33aed7f41a4e6bfef7aeff1"
+  integrity sha512-7qQL6SQ78RKJgtDxaIcL/aDci8F0R2AgclLry30BcCHb/qRNv9IMIBQ0z/v+lHKP7eVU5rp77nF+RjbpKp3GcQ==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "2.28.0"
+    http-errors "1.8.1"
     lodash "4.17.21"
     yup "0.32.9"
 
@@ -4345,6 +4356,11 @@ date-fns@2.24.0:
   version "2.24.0"
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.24.0.tgz#7d86dc0d93c87b76b63d213b4413337cfd1c105d"
   integrity sha512-6ujwvwgPID6zbI0o7UbURi2vlLDR9uP26+tW6Lg+Ji3w7dd0i3DOcjcClLjLPranT60SSEFBwdSyYwn/ZkPIuw==
+
+date-fns@2.28.0:
+  version "2.28.0"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.28.0.tgz#9570d656f5fc13143e50c975a3b6bbeb46cd08b2"
+  integrity sha512-8d35hViGYx/QH0icHYCeLmsLmMUheMmTyV9Fcm6gvNwdw31yXXH+O85sOBJ+OLnLQMKZowvpKb6FgMIQjcpvQw==
 
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
   version "2.6.9"
@@ -9983,11 +9999,6 @@ sliced@1.0.1:
   resolved "https://registry.yarnpkg.com/sliced/-/sliced-1.0.1.tgz#0b3a662b5d04c3177b1926bea82b03f837a2ef41"
   integrity sha1-CzpmK10Ewxd7GSa+qCsD+Dei70E=
 
-slugify@^1.4.5:
-  version "1.6.5"
-  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.6.5.tgz#c8f5c072bf2135b80703589b39a3d41451fbe8c8"
-  integrity sha512-8mo9bslnBO3tr5PEVFzMPIWwWnipGS0xVbYf65zxDqfNwmzYn1LpiKNrR6DlClusuvo+hDHd1zKpmfAe83NQSQ==
-
 snake-case@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/snake-case/-/snake-case-2.1.0.tgz#41bdb1b73f30ec66a04d4e2cad1b76387d4d6d9f"
@@ -10187,12 +10198,13 @@ strapi-plugin-ckeditor5@^2.0.0-rc.2:
     react "^17.0.2"
     react-dom "^17.0.2"
 
-strapi-plugin-navigation@^2.0.6:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-navigation/-/strapi-plugin-navigation-2.0.6.tgz#ab1e0e4e44ecef1b11e1033870244d64c018ce5c"
-  integrity sha512-0R5HYiMlOygjfQL29bZI5Oprk4lm3KUy+QopgQEWj9CBtAmtzJsHdrcD5N0tsaoq9sNbYWOe3vdnh1S+rWadpA==
+strapi-plugin-navigation@^2.1.0:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-navigation/-/strapi-plugin-navigation-2.2.1.tgz#e63da1354e667c22e3a8f8860c3aa874a09869e9"
+  integrity sha512-FDYhpZKPLkcrmCTtj35N4+/ZcA6KVsVcIWiyb1g+mXrEtY1RiAnXUU5mQoK1TWYHqqMtoBxfvp3aN/VdlinaDQ==
   dependencies:
-    "@strapi/utils" "^4.1.5"
+    "@sindresorhus/slugify" "1.1.0"
+    "@strapi/utils" "^4.3.2"
     lodash "^4.17.11"
     pluralize "^8.0.0"
     react "^16.9.0"
@@ -10204,7 +10216,6 @@ strapi-plugin-navigation@^2.0.6:
     reactstrap "8.4.1"
     redux-saga "^0.16.0"
     request "^2.83.0"
-    slugify "^1.4.5"
     uuid "^8.3.0"
 
 strapi-plugin-rest-cache@^4.2.2:
