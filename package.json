@@ -19,7 +19,7 @@
     "knex": "^1.0.4",
     "pg": "^8.7.3",
     "strapi-plugin-ckeditor5": "^2.0.0-rc.2",
-    "strapi-plugin-navigation": "^2.0.6",
+    "strapi-plugin-navigation": "^2.1.0",
     "strapi-plugin-rest-cache": "^4.2.2",
     "strapi-provider-rest-cache-memory": "^4.2.2"
   },
