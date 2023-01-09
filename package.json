@@ -16,7 +16,7 @@
     "@strapi/plugin-seo": "^1.7.2",
     "@strapi/plugin-users-permissions": "^4.1.5",
     "@strapi/strapi": "4.1.5",
-    "knex": "^1.0.4",
+    "knex": "^2.4.0",
     "pg": "^8.7.3",
     "strapi-plugin-ckeditor5": "^2.0.0-rc.2",
     "strapi-plugin-navigation": "^2.0.6",
